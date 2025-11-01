@@ -45,7 +45,7 @@ export const initialMessages: UIMessage[] = [
     parts: [
       {
         type: "text",
-        text: "Hi! I am Abroad Inquiry Assistant. I am happy to help with your questions about study abroad.",
+        text: `👋 Hi! I’m the Abroad Inquiry Chatbot. Nice to meet you! How can I help you today?`,
       },
     ],
   },
