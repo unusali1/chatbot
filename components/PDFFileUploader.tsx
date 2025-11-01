@@ -110,7 +110,7 @@ export default function PDFFileUpload({
       ) : (
         // UploadDropzone
         <UploadDropzone
-          endpoint={endpoint}
+          endpoint="documentUploader"
           onClientUploadComplete={(res) => {
             if (!res[0]) return;
             const item = res[0];
