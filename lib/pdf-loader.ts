@@ -4,11 +4,8 @@ import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
 import { Document } from "@langchain/core/documents";
 import axios from "axios";
 
-
-
 export type PDFSource = { type: "url"; source: string }
  
-
 export async function getChunkedDocsFromPDF(
   pdfSource: PDFSource
 ): Promise<Document[]> {
